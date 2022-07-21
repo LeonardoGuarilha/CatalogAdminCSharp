@@ -22,3 +22,15 @@ C:\dev\FullCycle\AdministracaoCatalogo\FC.Codeflix.Catalog\src\FC.Codeflix.Catal
 C:\dev\FullCycle\AdministracaoCatalogo\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\refint\FC.Codeflix.Catalog.Domain.dll
 C:\dev\FullCycle\AdministracaoCatalogo\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.pdb
 C:\dev\FullCycle\AdministracaoCatalogo\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.Domain.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\bin\Debug\net6.0\FC.Codeflix.Catalog.Domain.deps.json
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\bin\Debug\net6.0\FC.Codeflix.Catalog.Domain.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\bin\Debug\net6.0\FC.Codeflix.Catalog.Domain.pdb
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.csproj.AssemblyReference.cache
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.AssemblyInfoInputs.cache
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.AssemblyInfo.cs
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\refint\FC.Codeflix.Catalog.Domain.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\FC.Codeflix.Catalog.Domain.pdb
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Domain\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.Domain.dll

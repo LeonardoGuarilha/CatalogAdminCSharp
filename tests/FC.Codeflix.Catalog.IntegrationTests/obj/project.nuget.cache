@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xe2wJgJbTtL+cE37WqfTkeCjqXbY9E8w7ri6Iy9ddsFmEWKaVj3lwJ8jkm3/49ruiobQzEqgZe0UzWwI3WrpaQ==",
+  "dgSpecHash": "Mw1I8AxyPM5qOIypkKdMkAK6p2gjM2JdkUXzskfhTNiSWewiyEub2BWPTIsd9A+fkdgUDTtUN+GN+Muv2ofKRQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.IntegrationTests\\FC.Codeflix.Catalog.IntegrationTests.csproj",
+  "projectFilePath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.IntegrationTests\\FC.Codeflix.Catalog.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

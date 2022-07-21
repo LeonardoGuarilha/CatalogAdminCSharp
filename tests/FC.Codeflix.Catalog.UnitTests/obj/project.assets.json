@@ -6793,11 +6793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+      "projectUniqueName": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
       "projectName": "FC.Codeflix.Catalog.UnitTests",
-      "projectPath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+      "projectPath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\obj\\",
+      "outputPath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6814,11 +6814,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
-              "projectPath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj"
+            "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
+              "projectPath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj"
             },
-            "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
-              "projectPath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
+            "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
+              "projectPath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
             }
           }
         }
@@ -6881,7 +6881,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

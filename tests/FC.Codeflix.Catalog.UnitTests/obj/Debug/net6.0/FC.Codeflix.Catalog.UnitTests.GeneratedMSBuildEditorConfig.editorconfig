@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FC.Codeflix.Catalog.UnitTests
-build_property.ProjectDir = C:\dev\FullCycle\AdministracaoCatalogo\FC.Codeflix.Catalog\tests\FC.Codeflix.Catalog.UnitTests\
+build_property.ProjectDir = C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.UnitTests\

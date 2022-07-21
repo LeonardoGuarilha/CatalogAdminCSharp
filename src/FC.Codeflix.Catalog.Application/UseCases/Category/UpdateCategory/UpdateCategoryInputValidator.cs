@@ -6,6 +6,6 @@ public class UpdateCategoryInputValidator : AbstractValidator<UpdateCategoryInpu
 {
     public UpdateCategoryInputValidator()
     {
-        RuleFor(x => x.Id).NotEmpty();
+        RuleFor(x => x.Id).NotEmpty().WithMessage("'Id' must not be empty.");
     }
 }

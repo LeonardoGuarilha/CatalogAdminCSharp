@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6sbf0SZv5huCGZvKcS12qIjCOTB1FPvHbtV9LwtgY41SqEz52R2JSMbzK7VfhkG/c6FqzvFy0IGNcGnu84q3vA==",
+  "dgSpecHash": "9ipCDfxfeatupGiwuYxBJ3ACywy9pLJBJM4AZ5rNLZgZaq6te/Z6nzLreSgSdYsAXouO1STk6XNcWS4Ad5Gb/Q==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FullCycle\\AdministracaoCatalogo\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+  "projectFilePath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

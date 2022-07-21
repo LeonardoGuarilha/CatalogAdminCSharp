@@ -1,0 +1,6 @@
+{
+  "FC.Codeflix.Catalog.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Api",
+  "FC.Codeflix.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Application",
+  "FC.Codeflix.Catalog.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Domain",
+  "FC.Codeflix.Catalog.Infra.Data.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Infra.Data.EF"
+}

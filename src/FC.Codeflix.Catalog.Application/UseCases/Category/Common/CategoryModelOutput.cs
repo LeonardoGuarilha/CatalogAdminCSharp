@@ -19,6 +19,8 @@ public class CategoryModelOutput
         CreatedAt = createdAt;
     }
 
-    public static CategoryModelOutput FromCategory(DomainEntity.Category category) 
+
+    public static CategoryModelOutput FromCategory(DomainEntity.Category category)
         => new (category.Id, category.Name, category.Description, category.IsActive, category.CreatedAt);
+
 }
