@@ -2467,6 +2467,7 @@
           "FC.Codeflix.Catalog.Application": "1.0.0",
           "FC.Codeflix.Catalog.Infra.Data.EF": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.5",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.15.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },

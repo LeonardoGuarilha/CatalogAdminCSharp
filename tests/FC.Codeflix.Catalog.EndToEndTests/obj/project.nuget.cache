@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lMdUO+GS41CZc/NI7vyDIuvZZ01S1UV8QzWcnZ2Ius94GMhSmGdBBcqGxrGb7ZrJOVaF4Oh7WR1tbSn8zvNTeQ==",
+  "dgSpecHash": "Gbd00xUgRzqwTnMSMPu3zkUXN3LJT5yQaZautplwGpfxxIneRV3snASJAhHymNvclVE8pqJJrNCDdx6DHB5B5A==",
   "success": true,
   "projectFilePath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.EndToEndTests\\FC.Codeflix.Catalog.EndToEndTests.csproj",
   "expectedPackageFiles": [

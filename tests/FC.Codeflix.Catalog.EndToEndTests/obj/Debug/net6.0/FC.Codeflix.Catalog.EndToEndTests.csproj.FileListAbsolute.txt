@@ -424,3 +424,4 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.pdb
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.genruntimeconfig.cache
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.EndToEndTests.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
