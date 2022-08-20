@@ -1,10 +1,12 @@
-﻿namespace FC.Codeflix.Catalog.Api.Configurations;
+﻿using FC.Codeflix.Catalog.Api.Filters;
+
+namespace FC.Codeflix.Catalog.Api.Configurations;
 
 public static class ControllersConfiguration
 {
     public static IServiceCollection AddAndConfiguraControllers(this IServiceCollection services)
     {
-        services.AddControllers();
+        services.AddControllers(options => options.Filters.Add(typeof(ApiGlobalExeptionFilter)));
         services.AddDocumentation();
 
         return services;

@@ -3,6 +3,7 @@ using FC.Codeflix.Catalog.Application.UseCases.Category.Common;
 using FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
 using DomainEntity = FC.Codeflix.Catalog.Domain.Entity;
 using FluentAssertions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Xunit;
 
@@ -17,7 +18,7 @@ public class CreateCategoryApiTest
         => _fixture = fixture;
 
     [Fact(DisplayName = nameof(CreateCategory))]
-    [Trait("EndToEnd/API", "Category - Endpoints")]
+    [Trait("EndToEnd/API", "Category/Create - Endpoints")]
     public async Task CreateCategory()
     {
         var input = _fixture.GetExampleInput();
@@ -49,7 +50,7 @@ public class CreateCategoryApiTest
     }
 
     [Theory(DisplayName = nameof(ThrowWhenCantInstantiateAggregate))]
-    [Trait("EndToEnd/API", "Category - Endpoints")]
+    [Trait("EndToEnd/API", "Category/Create - Endpoints")]
     [MemberData(
         nameof(CreateCategoryApiTestDataGenerator.GetInvalidInputs),
         MemberType = typeof(CreateCategoryApiTestDataGenerator)
@@ -69,7 +70,7 @@ public class CreateCategoryApiTest
         output.Should().NotBeNull();
         output!.Title.Should().Be("One or more validation errors occurred");
         output.Type.Should().Be("UnprocessableEntity");
-        output.Status.Should().Be((int)HttpStatusCode.UnprocessableEntity);
+        output.Status.Should().Be((int)StatusCodes.Status422UnprocessableEntity);
         output.Detail.Should().Be(expectedDetail);
     }
 }

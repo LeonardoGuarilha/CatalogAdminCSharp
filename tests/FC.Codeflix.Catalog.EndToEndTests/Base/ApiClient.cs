@@ -40,5 +40,30 @@ public class ApiClient
         // Tenho o retorno da tupla, dois resultados em 1 retorno do método
         // Poderia ter até mais retornos nesse método também
         return (response, output);
-    } 
+    }
+
+    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route)
+        where TOutput : class
+    {
+        // Faz um post na API
+        var response = await _httpClient.GetAsync(route);
+
+        // Deserialize o retorno
+        // Pego em formato de string
+        var outputString = await response.Content.ReadAsStringAsync();
+
+        // Faz o Deserialize para o formato TOutput do que tem no outputString
+        TOutput? output = null;
+        if (!string.IsNullOrWhiteSpace(outputString))
+        {
+            output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions
+            {
+                // Para deixar os nomes CaseInsensitive
+                PropertyNameCaseInsensitive = true
+            });
+        }
+        // Tenho o retorno da tupla, dois resultados em 1 retorno do método
+        // Poderia ter até mais retornos nesse método também
+        return (response, output);
+    }
 }
