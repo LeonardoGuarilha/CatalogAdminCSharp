@@ -14,4 +14,8 @@ public class ListCategoriesInput : PaginatedListInput, IRequest<ListCategoriesOu
         SearchOrder dir = SearchOrder.Asc) 
         : base(page, perPage, search, sort, dir)
     { }
+    
+    // Para não dar problema no binding na controller, no [FromRoute] no método List
+    public ListCategoriesInput() : base(1, 15, "", "", SearchOrder.Asc)
+    { }
 }

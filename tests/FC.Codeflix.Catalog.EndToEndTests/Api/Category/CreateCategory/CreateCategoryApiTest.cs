@@ -10,7 +10,7 @@ using Xunit;
 namespace FC.Codeflix.Catalog.EndToEndTests.Api.Category.CreateCategory;
 
 [Collection(nameof(CreateCategoryApiTestFixture))]
-public class CreateCategoryApiTest
+public class CreateCategoryApiTest : IDisposable
 {
     private readonly CreateCategoryApiTestFixture _fixture;
 
@@ -73,4 +73,6 @@ public class CreateCategoryApiTest
         output.Status.Should().Be((int)StatusCodes.Status422UnprocessableEntity);
         output.Detail.Should().Be(expectedDetail);
     }
+
+    public void Dispose() => _fixture.CleanPersistence();
 }

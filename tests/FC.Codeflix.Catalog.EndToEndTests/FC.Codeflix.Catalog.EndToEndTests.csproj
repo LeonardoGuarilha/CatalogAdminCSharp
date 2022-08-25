@@ -10,6 +10,9 @@
 
     <ItemGroup>
       <None Remove="Api\Category\GetCategory\GetCategoryApiTest.cs~RF90ae4bb.TMP" />
+      <None Update="xunit.runner.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
