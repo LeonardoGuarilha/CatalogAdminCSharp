@@ -20,7 +20,7 @@ public class ListCategoriesTestFixture : CategoryUseCasesBaseFixture
     
     public List<DomainEntity.Category> CloneCategoryListOrdered(List<DomainEntity.Category> categoriesList, string orderBy, SearchOrder order)
     {
-        // Passando a lista no construtor dessa lista ele já faz o clone da lista qeue veio no
+        // Passando a lista no construtor dessa lista ele já faz o clone da lista que veio no
         // parametro para a minha listClone
         var listClone = new List<DomainEntity.Category>(categoriesList);
         // syntax nova do switch
