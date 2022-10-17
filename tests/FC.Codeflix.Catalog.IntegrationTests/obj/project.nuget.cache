@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vffoj3FdGKIdt/d6/HWYwOEppmvlJFXwfNdeC+2AleIDur22DGLM6ZMaZVPN3BbwqwaTwWIUDwvDwBp33kkG7A==",
+  "dgSpecHash": "QToARfA78C1vVYDoMEBaUp7ucjxyYCKN297+pQS3A8chVrYvoaEQi97UfWj3TOIG4mhwjqKlZ76SfTktulSrLA==",
   "success": true,
   "projectFilePath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\tests\\FC.Codeflix.Catalog.IntegrationTests\\FC.Codeflix.Catalog.IntegrationTests.csproj",
   "expectedPackageFiles": [

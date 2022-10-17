@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Text.Json;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace FC.Codeflix.Catalog.EndToEndTests.Base;
 
@@ -49,11 +50,18 @@ public class ApiClient
         return (response, output);
     }
 
-    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route)
+    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(
+        string route, 
+        object? queryStringParametersObjects = null
+    )
         where TOutput : class
     {
+        // Transforma o objeto em parâmetros da rota
+        // O retorno fica da seguinte forma: /categories?Page=1&PerPage=5&Search=&Sort=&Dir=0
+        var url = PrepareGetRoute(route, queryStringParametersObjects);
+        
         // Faz um Get na API
-        var response = await _httpClient.GetAsync(route);
+        var response = await _httpClient.GetAsync(url);
 
         var output = await GetOutput<TOutput>(response);
         
@@ -61,7 +69,7 @@ public class ApiClient
         // Poderia ter até mais retornos nesse método também
         return (response, output);
     }
-    
+
     public async Task<(HttpResponseMessage?, TOutput?)> Delete<TOutput>(string route)
         where TOutput : class
     {
@@ -93,5 +101,18 @@ public class ApiClient
         }
 
         return output;
+    }
+    
+    private string PrepareGetRoute(string route, object? queryStringParametersObjects)
+    {
+        if (queryStringParametersObjects is null)
+            return route;
+        
+        var parametersJson = JsonSerializer.Serialize(queryStringParametersObjects);
+        var parametersDictionary =
+            Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(parametersJson);
+        
+        // Adiciona o parametersDictionary na rota
+        return QueryHelpers.AddQueryString(route, parametersDictionary!);
     }
 }

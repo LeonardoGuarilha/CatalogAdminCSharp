@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EKfIyCPzKL81B1xjSTUUl7W1gric7n+Bg3+5NzIsGhqkWN0RECmjMfV/P3LQJVAPsTgBs29aLwcFeGcdHKQpkw==",
+  "dgSpecHash": "VCwbNI6EmNwJ53L9dYQwwxyH3hfBoajUbwNzbtUGH+OFzP5URlDtNLGNlqsY249RtEWQpemLS3gJqf+u7Zzfmg==",
   "success": true,
   "projectFilePath": "C:\\dev\\FullCycle\\CatalogAdminCSharp\\src\\FC.Codeflix.Catalog.Infra.Data.EF\\FC.Codeflix.Catalog.Infra.Data.EF.csproj",
   "expectedPackageFiles": [
