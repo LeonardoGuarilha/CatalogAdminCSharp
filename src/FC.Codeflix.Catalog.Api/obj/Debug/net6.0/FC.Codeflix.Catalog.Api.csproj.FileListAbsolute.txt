@@ -39,3 +39,7 @@ C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\obj\Debug\net6.0
 C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\obj\Debug\net6.0\FC.Codeflix.Catalog.Api.pdb
 C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\obj\Debug\net6.0\FC.Codeflix.Catalog.Api.genruntimeconfig.cache
 C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.Api.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\bin\Debug\net6.0\appsettings.EndToEndTest.json
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\bin\Debug\net6.0\MySqlConnector.dll
+C:\dev\FullCycle\CatalogAdminCSharp\src\FC.Codeflix.Catalog.Api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

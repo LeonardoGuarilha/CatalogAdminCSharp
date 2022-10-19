@@ -27,17 +27,20 @@ public class ListCategoriesTestFixture : CategoryUseCasesBaseFixture
         var orderedEnumerable = (orderBy.ToLower(), order) switch
         {
             // Se o orderBy for name e o order sendo SearchOrder.Asc 
-            ("name", SearchOrder.Asc) => listClone.OrderBy(x => x.Name),
-            ("name", SearchOrder.Desc) => listClone.OrderByDescending(x => x.Name),
+            // Vai ordenar por nome e por id, faz uma ordenação com um segundo nível
+            ("name", SearchOrder.Asc) => listClone.OrderBy(x => x.Name).ThenBy(x => x.Id),
+            // Vai ordenar por nome e por id decrescente, faz uma ordenação com um segundo nível
+            ("name", SearchOrder.Desc) => listClone.OrderByDescending(x => x.Name).ThenByDescending(x => x.Id),
             ("id", SearchOrder.Asc) => listClone.OrderBy(x => x.Id),
             ("id", SearchOrder.Desc) => listClone.OrderByDescending(x => x.Id),
             ("createdat", SearchOrder.Asc) => listClone.OrderBy(x => x.CreatedAt),
             ("createdat", SearchOrder.Desc) => listClone.OrderByDescending(x => x.CreatedAt),
             // Por default ordena por nome
-            _ => listClone.OrderBy(x => x.Name)
+            _ => listClone.OrderBy(x => x.Name).ThenBy(x => x.Id)
         };
 
-        return orderedEnumerable.ToList();
+        // Vai fazer a ordenação de cima e depois ainda ordena por CreatedAt
+        return orderedEnumerable.ThenBy(x => x.CreatedAt).ToList();
     }
 }
 
