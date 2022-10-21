@@ -3,6 +3,7 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.Api.deps.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.Api.runtimeconfig.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.Development.json
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.EndToEndTest.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.Api.exe
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\testhost.exe
@@ -11,6 +12,7 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.deps.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.runtimeconfig.json
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.dll
@@ -315,6 +317,7 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
@@ -327,8 +330,10 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\MySqlConnector.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -425,8 +430,3 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.pdb
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\FC.Codeflix.Catalog.EndToEndTests.genruntimeconfig.cache
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.EndToEndTests.dll
-C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.json
-C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.EndToEndTest.json
-C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\MySqlConnector.dll
-C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.EndToEndTests\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

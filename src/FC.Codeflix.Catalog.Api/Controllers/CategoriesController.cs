@@ -20,7 +20,7 @@ namespace FC.Codeflix.Catalog.Api.Controllers
         {
             _mediator = mediator;
         }
-
+        
         [HttpPost]
         // Os tipos da resposta
         [ProducesResponseType(typeof(CategoryModelOutput), StatusCodes.Status201Created)]

@@ -2892,7 +2892,8 @@
         "dependencies": {
           "FC.Codeflix.Catalog.Application": "1.0.0",
           "FC.Codeflix.Catalog.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.4"
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.4"
         },
         "compile": {
           "bin/placeholder/FC.Codeflix.Catalog.Infra.Data.EF.dll": {}

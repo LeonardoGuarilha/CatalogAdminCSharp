@@ -14,8 +14,8 @@ public class CustomWebApplicationFactory<TStartup>
 {
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
-        // Altero o ambiente
-        builder.UseEnvironment("EndToEndTest"); // Mesmo nome que tá no appsettings do EndToEnd na API
+        // Altero o ambiente para o EndToEndTest
+        builder.UseEnvironment("EndToEndTest"); // Mesmo nome que tá no appsettings do EndToEndTest na API
         // Encontro o serviço que seja o DbContext
         builder.ConfigureServices(services =>
         {
