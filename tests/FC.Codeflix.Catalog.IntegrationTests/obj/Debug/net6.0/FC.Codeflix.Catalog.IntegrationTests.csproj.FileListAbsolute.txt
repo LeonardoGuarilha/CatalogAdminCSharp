@@ -375,3 +375,5 @@ C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\o
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\obj\Debug\net6.0\FC.Codeflix.Catalog.IntegrationTests.pdb
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\obj\Debug\net6.0\FC.Codeflix.Catalog.IntegrationTests.genruntimeconfig.cache
 C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\obj\Debug\net6.0\ref\FC.Codeflix.Catalog.IntegrationTests.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\dev\FullCycle\CatalogAdminCSharp\tests\FC.Codeflix.Catalog.IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
